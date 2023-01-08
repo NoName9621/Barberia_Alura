@@ -100,10 +100,10 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px
+    margin: 0 0 10px;
 }
 
 .input-padron {
@@ -115,4 +115,26 @@ form label, form p {
 
 .checkbox {
     margin: 20px 0;
+}
+
+.requerido {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.btn-enviar {
+    width: 40%;
+    padding: 15px 0;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s background;
+}
+.btn-enviar:hover {
+    background-color: rgb(206, 114, 2);
+    font-size: 21px;
 }
