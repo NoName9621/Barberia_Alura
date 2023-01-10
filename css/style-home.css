@@ -1,5 +1,6 @@
 
 body {
+    margin: 0;
     text-align: center;
     background-color: #ccc;
 }
@@ -25,8 +26,8 @@ header {
 }
 
 .logo {
-    width: 80px;
-    height: 80px;
+    width: 177px;
+    height: 250px;
 }
 
 .lista {
@@ -38,8 +39,9 @@ header {
     font-weight: bold;
 }
 ul li {
-    line-height: 2.5;
+    line-height: 3.5;
     font-style: italic;
+    list-style: none;
 }
 
 .lista-contenido {
@@ -52,4 +54,49 @@ ul li {
 .imagen-barbero {
     width: 250px;
     height: 250px;
+}
+
+.header {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
+    margin: 0 auto;
+    /* padding: 30px; */
+}
+
+.nav a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 0 15px;
+}
+.nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+.diferenciales {
+    margin: 40px;
+}
+.diferenciales__contenido {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    background-image: url(/img/bg.jpg);
+    padding: 30px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
 }
