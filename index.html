@@ -19,9 +19,9 @@
                 <h1><img class="logo" src="img/logo.png" alt="logo"></h1>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -34,35 +34,39 @@
 
                 <h1 class="titulo-principal">Sobre la Barbería Alura</h1>
 
-                <img src="img/utensilios.jpg" alt="utensillos.jpg" class="utensillos">
+                <div class="principal-contenido">
+                    <img src="img/utensilios.jpg" alt="utensillos.jpg" class="utensillos">
     
-                <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
-    
-                <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
-    
-                <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
-    
+                    <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+        
+                    <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
+        
+                    <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
+                </div>
             </section>
     
             <section class="mapa">
                 <h2 class="titulo-principal">Nuestra Ubicacion</h2>
                 <p>Nuestro Local queda ubicado en el microcentro de la cuidad</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15717.162017859959!2d-62.28140200446989!3d-38.71651519446205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbd44578df72f%3A0x28119a53279f30eb!2sBarberia%20Alura%20Bah%C3%ADa!5e0!3m2!1ses!2sar!4v1673369693931!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="mapa-contenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15717.162017859959!2d-62.28140200446989!3d-38.71651519446205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbd44578df72f%3A0x28119a53279f30eb!2sBarberia%20Alura%20Bah%C3%ADa!5e0!3m2!1ses!2sar!4v1673369693931!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </section>
 
             <section class="diferenciales">
     
                 <h2 class="titulo-principal">Diferenciales</h2>
     
-                <div class="diferenciales__contenido">
-                    <ul>
+                <div class="contenido-diferenciales">
+                    <ul class="lista-diferenciales">
                         <li class="items">Atención personalizada a los clientes</li>
                         <li class="items">Espacio diferenciado</li>
                         <li class="items">Localización</li>
                         <li class="items">Profesesionales calificados</li>
-                    </ul>
-        
-                    <img src="img/diferenciales.jpg" class="imagen-barbero">
+                        <li class="items">Puntualidad</li>
+                        <li class="items">Limpieza</li>
+                    </ul><img src="img/diferenciales.jpg" class="imagen-barbero">
+                    <!-- ul tiene display inline-block para ponerse a lado de la lista, sim embargo respeta el salto de linea que tiene el html separando la lista(ul) con la imagen, para que se pueda poner uno al lado del otro necesitamos sacar ese salto de linea, y poner los elementos pegado, es decir, juntos como se puede observar </ul><img ....>  -->
                 </div>
             </section>
             <div class="video">
