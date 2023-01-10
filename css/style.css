@@ -1,3 +1,6 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 header {
     background-color: #bbb;
     padding: 20px 0;
@@ -122,6 +125,10 @@ form label, form legend {
     margin-bottom: 3px;
 }
 
+textarea {
+    resize: none;
+}
+
 .btn-enviar {
     width: 40%;
     padding: 15px 0;
@@ -152,4 +159,33 @@ thead {
 th, td {
     border: 1px solid rgb(98, 97, 97);
     padding: 8px 15px;
+}
+
+/* Estilos para la pagina HOME (index.html) */
+
+.banner {
+    width: 100%;
+}
+.titulo-principal {
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0 1em;
+    clear: left; /* para que no afecte el float aplicado a la imagen utensillos */
+}
+.principal p {
+    margin: 0 0 1em;
+}
+.principal strong {
+    font-weight: bold;
+}
+.principal em {
+    font-style: italic;
+}
+.imagen-barbero {
+    width: 60%;
+}
+.utensillos {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
